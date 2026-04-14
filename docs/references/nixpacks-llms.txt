@@ -1,0 +1,19 @@
+Title: Nixpacks Reference for LLMs
+
+Purpose:
+This placeholder file stores build and deployment reference notes related to Nixpacks so agents can reason about packaging and runtime behavior with less guesswork.
+
+How to maintain:
+- Capture only the subset relevant to this repository.
+- Prefer command examples, common pitfalls, and supported configuration notes.
+- Remove stale guidance when build pipelines change.
+
+Suggested contents:
+- Build detection behavior
+- Key environment variables
+- Common troubleshooting notes
+- Links or excerpts from the canonical documentation
+
+TODO:
+- Add project-specific Nixpacks guidance.
+- Record any known deployment constraints.

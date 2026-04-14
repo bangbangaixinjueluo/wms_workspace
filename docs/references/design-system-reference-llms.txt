@@ -1,0 +1,19 @@
+Title: Design System Reference for LLMs
+
+Purpose:
+This placeholder file stores reference material that helps humans and agents understand the project's design system, UI vocabulary, reusable patterns, and visual constraints.
+
+How to maintain:
+- Keep source excerpts concise and clearly attributed.
+- Prefer stable reference content over temporary notes.
+- Update when the underlying design system changes materially.
+
+Suggested contents:
+- Component naming conventions
+- Token usage notes
+- Layout and spacing rules
+- Accessibility reminders
+
+TODO:
+- Add real reference excerpts or links.
+- Mark the canonical source of truth.

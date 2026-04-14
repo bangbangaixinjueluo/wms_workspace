@@ -1,0 +1,19 @@
+Title: uv Reference for LLMs
+
+Purpose:
+This placeholder file stores reference material for `uv` usage in this repository, including dependency management, virtual environment expectations, and repeatable command patterns.
+
+How to maintain:
+- Keep examples aligned with the repo's actual workflow.
+- Prefer short operational notes over generic documentation dumps.
+- Note any differences between local development and CI usage.
+
+Suggested contents:
+- Environment bootstrap commands
+- Lockfile/update policy
+- Common install and sync commands
+- Known pitfalls on Windows/macOS/Linux
+
+TODO:
+- Add the canonical `uv` workflow used by this project.
+- Add CI-specific notes if applicable.
