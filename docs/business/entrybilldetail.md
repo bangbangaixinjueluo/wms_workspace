@@ -11,11 +11,13 @@
 - `updateItemInfo(id, itemId, epc, itemNo)`
   - 审核生成单件后，把单件主键和 EPC 反写回明细，并把 `effective` 置为 `true`。
 - `getEntryBillDetailPage(...)`
+  - 2026-04-16 起，查询列表与页面导出统一补齐 `bigClassName`、`textureName`，用于大类 / 材质展示。
   - 分页时会补齐仓库、门店、供应商、配件明细，并返回 summary。
 - `getEntryBillDetailList(pageReqVO)`
   - 导出前会在列表末尾手工追加一条 summary。
 - `getExportDetailAccessories(...)`
   - 导出不是一行一明细；若存在配件，会把同一明细拆成多行输出。
+  - 含辅料导出与普通页面导出保持同口径，同样输出 `bigClassName`、`textureName`。
 
 ## 在主链中的作用
 - `entrybill`
