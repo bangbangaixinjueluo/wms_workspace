@@ -1,30 +1,18 @@
 # 设计文档索引
 
-## 本文用途
-用于维护设计文档目录，并约定设计文档的组织方式、命名规范与状态标记。
+## 说明
+本目录存放偏技术方案视角的文档，重点回答“系统怎么实现、模块怎么协作、风险和取舍是什么”。
 
-## 当前目录索引
+## 当前文档
 | 文档 | 状态 | 说明 |
 | --- | --- | --- |
-| [core-beliefs.md](./core-beliefs.md) | draft | 核心设计信念与长期原则。 |
-| 后续新增文档 | todo | 新文档加入后请同步登记。 |
+| [core-beliefs.md](./core-beliefs.md) | draft | 长期设计原则与信念 |
+| [../DESIGN.md](G:\wms_workspace\docs\DESIGN.md) | accepted | 当前仓库的总体设计总览 |
+| [../BACKEND.md](G:\wms_workspace\docs\BACKEND.md) | accepted | 后端模块与配置分析 |
+| [../FRONTEND.md](G:\wms_workspace\docs\FRONTEND.md) | accepted | 前端结构与交互分析 |
 
-## 如何维护
-- 新增设计文档时，同步更新本索引。
-- 文档名称建议使用短横线命名，聚焦单一主题。
-- 每篇设计文档应注明状态，例如 `draft`、`reviewing`、`accepted`、`deprecated`。
-
-## 命名规范
-- 面向主题命名，而不是面向会议命名。
-- 避免使用模糊标题，如“优化方案”“问题记录”。
-- 推荐格式：`<主题>-<对象>.md` 或 `<能力>-design.md`。
-
-## 状态字段建议
-- `draft`：草稿，尚未评审。
-- `reviewing`：评审中。
-- `accepted`：已采纳，作为当前方案依据。
-- `deprecated`：已废弃，仅供追溯。
-
-## TODO / 待补充
-- 待补充：是否需要引入 ADR 编号。
-- 待补充：设计评审负责人名单。
+## 建议新增
+- WMS 单据状态设计
+- 权限与菜单生成设计
+- 外部系统同步设计
+- 主数据缓存与预加载设计
