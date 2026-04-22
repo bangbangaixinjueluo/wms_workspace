@@ -34,3 +34,8 @@
 - `⚠️ confirm(...)` 里 `approvedTime` 使用的是单头当前值，不是显式重新赋值，需确认是否遗漏
 - `⚠️ resetTaskPrintStatus(...)` 即使不是已打印也能重置，状态边界被放宽了
 - `⚠️ getByEntryBillId` 查不到直接抛“明细为空”，错误语义不够准确
+
+## 2026-04-22 両重打印字段
+- 打印任务明细新增 `liangWeight`，创建打印任务时优先使用明细传入值，缺失时从 `wh_item.liang_weight` 回填。
+- 打印任务详情和标签打印数据源均包含 `liangWeight`，打印模板可直接绑定该字段展示“両重”。
+- 未换算的单件 `liangWeight` 为空，打印模板应按空值展示。
